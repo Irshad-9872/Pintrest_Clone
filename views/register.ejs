@@ -1,0 +1,26 @@
+<% include ./partials/header.ejs %>
+
+<div class="w-full h-screen bg-center bg-cover bg-[url('https://images.unsplash.com/photo-1560215978-9054e9c7b983?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] flex items-center justify-center">
+  <div class="w-64 h-[84vh] bg-white px-5 py-4 rounded-[30px]">
+    <h1 class="text-2xl mt-[-10px] text-center font-semibold text-zinc-700 tracking-tight capitalize">create new account</h1>
+    <form action="/register" method="post">
+        <input class="border-2 rounded-md block mt-3 w-full px-3 py-[-10px]" type="text" name="username" placeholder="username">
+      <input class= "border-2 rounded-md block mt-3 w-full px-3 py-[-10px] " type="email" name="email" placeholder="E-mail">
+      <input class= "border-2 rounded-md block mt-3 w-full px-3 py-[-10px] " type="text" name="fullname" placeholder="Name">
+      <input class= "border-2 rounded-md block mt-3 w-full px-3 py-[-10px] " type="number" name="contact" placeholder="Mobile No.">
+      <input class="border-2 rounded-md block mt-3 w-full px-3 py-[-10px]" type="password" name="password" placeholder="password">
+      <input class="border-2 rounded-md block mt-3 w-full px-3 py-1 bg-red-600 text-white rounded-full" type="submit" value="Register">
+      <!-- <a class="mt-2 font-semibold text-zinc-500 inline-block" href="#">Remember me</a> -->
+      <p class="mt-2 text-[8px] font-semibold text-zinc-600  text-center">By continuing, you agree to Pinterest's Terms and conditions; you've read our Privacy Policy.Notice at collection</p>
+    </form>
+    <a class="inline-block mt-4 mb-1  text-[10px] font-semibold text-zinc-700 text-right w-full " href="/">Login existing account</a>
+   
+  </div>
+  
+
+</div>
+
+
+
+<% include ./partials/footer.ejs %>
+  

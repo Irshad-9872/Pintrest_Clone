@@ -1,0 +1,22 @@
+# Node modules directory
+node_modules/
+
+# Environment variables file
+.env
+
+# Log files
+*.log
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+# Coverage directory
+coverage/
+
+# Build output
+dist/
+build/
+
+# for my use only not for everyone
+works
